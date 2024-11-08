@@ -21,6 +21,6 @@ resource "aws_instance" "demo_server" {
   }
   
   tags = {
-    Name = "vish"
+    Name = "vishee"
   }
 }
