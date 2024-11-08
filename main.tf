@@ -16,7 +16,7 @@ resource "aws_instance" "demo_server" {
   
   # Optionally specify an EBS volume
   root_block_device {
-    volume_size = 8
+    volume_size = 10
     volume_type = "gp2"
   }
   
